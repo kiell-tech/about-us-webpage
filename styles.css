@@ -189,6 +189,7 @@ body {
     text-align: left;
     margin-bottom: -6px;
 }
+
 .left-side-text p {
     margin-bottom: 1rem;
     color: #555;
@@ -220,4 +221,176 @@ body {
 .hero-footer p {
     color: #ffffff;
     font-size: 0.95rem;
+}
+
+/* Styles for contact.html */
+.right-links a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.right-links a:hover {
+    color: #2c3e50;
+}
+
+.right-links .contact-active {
+    color: #818080;
+}
+
+/* Contact Hero Section */
+.contact-hero {
+    padding: 5rem 5%;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.contact-title {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contact-title h1 {
+    font-size: 3rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.contact-title p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.8;
+}
+
+/* Contact Main Content */
+.contact-main {
+    padding: 5rem 5%;
+    background-color: #ffffff;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Contact Cards */
+.contact-card {
+    background-color: #f8f9fa;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+/* Person Card */
+.person-card {
+    text-align: center;
+}
+
+.person-profile {
+    margin-bottom: 1.5rem;
+}
+
+.person-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+    border: 3px solid #d0d0d0;
+    object-fit: cover;
+}
+
+.person-details {
+    text-align: center;
+}
+
+.person-name {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.person-role {
+    font-size: 1rem;
+    color: #666;
+    font-style: italic;
+}
+
+/* Details Card */
+.details-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.info-label {
+    font-size: 0.9rem;
+    color: #888;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.info-value {
+    font-size: 1.05rem;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.info-value a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.info-value a:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+/* Map Card */
+.map-card {
+    grid-column: span 1;
+}
+
+.map-container {
+    margin-top: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.map-container img {
+    width: 100%;
+    height: 300px;
+    background-color: #e5e5e5;
+    border: 2px solid #d0d0d0;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
 }
