@@ -349,6 +349,14 @@ body {
     gap: 0.3rem;
 }
 
+.info-item a {
+    text-decoration: none;
+}
+
+.info-item a:hover {
+    text-decoration: underline;
+}
+
 .info-label {
     font-size: 0.9rem;
     color: #888;
@@ -366,7 +374,6 @@ body {
 .info-value a {
     color: #2c3e50;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
 .info-value a:hover {
